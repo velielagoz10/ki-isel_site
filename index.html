@@ -552,7 +552,7 @@
         <div class="container">
             <h2>İletişim</h2>
             <div class="contact-form">
-                <form>
+                <form  action="https://formspree.io/f/xqabnwqr" method="POST">
                     <div class="form-group">
                         <label for="name">Adınız</label>
                         <input type="text" id="name" name="name" required>
@@ -628,12 +628,13 @@
             });
         });
 
-        // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Mesajınız gönderildi! En kısa sürede size dönüş yapacağım.');
-            this.reset();
-        });
+         
+   // Form submission
+       // document.querySelector('form').addEventListener('submit', function(e) {
+          //  e.preventDefault();
+           // alert('Mesajınız gönderildi! En kısa sürede size dönüş yapacağım.');
+           // this.reset();
+       // });
 
         // Intersection Observer for animations
         const observerOptions = {
